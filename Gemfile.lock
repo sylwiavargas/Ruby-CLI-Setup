@@ -18,6 +18,7 @@ GEM
     concurrent-ruby (1.1.5)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
+    equatable (0.6.1)
     faker (2.8.0)
       i18n (>= 1.6, < 1.8)
     http-accept (1.7.0)
@@ -31,7 +32,11 @@ GEM
     mime-types-data (3.2019.1009)
     minitest (5.13.0)
     mustermann (1.0.3)
+    necromancer (0.5.1)
     netrc (0.11.0)
+    pastel (0.7.3)
+      equatable (~> 0.6)
+      tty-color (~> 0.5)
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
@@ -55,11 +60,23 @@ GEM
     sqlite3 (1.4.1)
     thread_safe (0.3.6)
     tilt (2.0.10)
+    tty-color (0.5.0)
+    tty-cursor (0.7.0)
+    tty-prompt (0.20.0)
+      necromancer (~> 0.5.0)
+      pastel (~> 0.7.0)
+      tty-reader (~> 0.7.0)
+    tty-reader (0.7.0)
+      tty-cursor (~> 0.7)
+      tty-screen (~> 0.7)
+      wisper (~> 2.0.0)
+    tty-screen (0.7.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.6)
+    wisper (2.0.1)
 
 PLATFORMS
   ruby
@@ -73,6 +90,7 @@ DEPENDENCIES
   rest-client (~> 2.1)
   sinatra-activerecord
   sqlite3
+  tty-prompt
 
 BUNDLED WITH
    2.0.2

@@ -1,4 +1,4 @@
 require_relative '../config/environment'
 
-app = nameOfYourApp.new
+app = StarbucksApp.new
 app.run
