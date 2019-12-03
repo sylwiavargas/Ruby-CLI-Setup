@@ -7,7 +7,8 @@ bklyn_location = Starbucks.create(name: "Brooklyn Starbucks")
 mhtn_location = Starbucks.create(name: "Manhattan Starbucks")
 
 # orders 
-order_1 = Order.create('')
+order = Order.create('')
+
 
 
 # items  

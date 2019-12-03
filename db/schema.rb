@@ -13,7 +13,6 @@
 ActiveRecord::Schema.define(version: 3) do
 
   create_table "orders", force: :cascade do |t|
-    t.string "items"
     t.string "user_id"
     t.string "starbucks_id"
   end
