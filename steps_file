@@ -1,0 +1,17 @@
+
+    Has issue connecting with Starbucks id.
+    
+    Had issue connecting the user id. First tried to use self.id which wouldnt work bc self is still Starbucks App 
+    and not the user instance, in the end for the time being using User.all.last.id however (to read the most recent user)
+    will only work if your signing up for the app, for a login youll need to access the actual user. 
+
+  Order proccesing with animation of waiting or dancing emoji/computer 
+
+  total price? 
+
+  User profile 
+
+  gif when opening file 
+
+  fix create if name already exists  
+  right now will create 2 of the same name instance 

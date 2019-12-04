@@ -10,20 +10,19 @@ class User < ActiveRecord::Base
         system "clear"
         puts "Enter username"
         uname = gets.chomp.downcase 
-      
         user = User.find_by(username: uname)
         if user
         puts "Welcome #{uname}!"
-       else
+        else
         
         puts 'Who are you' 
         sleep(0.5) 
         puts "You will be redirected to sign up"
         sleep(1)
         
-         User.handle_new_user
+        User.handle_new_user
         # should take you back to sign up 
-       end 
+        end 
     end
     def self.handle_new_user 
         # able to create empty username and password 

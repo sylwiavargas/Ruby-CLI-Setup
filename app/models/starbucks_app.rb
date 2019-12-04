@@ -8,15 +8,15 @@ class StarbucksApp
     end
 
     def run 
-        #  welcome
-        #  log_in
-        #  select_starbucks
-        #  select_item
-        view_cart
+        welcome
+        log_in
+        select_starbucks
+        select_item
+        # view_cart
     end 
 
     def welcome
-        puts "Welcome to Starbucks!"
+        puts "Welcome to Starbucks!😜😜"
     end 
 
     def log_in
