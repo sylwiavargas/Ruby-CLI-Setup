@@ -1,4 +1,4 @@
 require_relative '../config/environment'
 
-app = nameOfYourApp.new
+app = ffv_rmk.new
 app.run
