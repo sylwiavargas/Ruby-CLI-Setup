@@ -32,8 +32,6 @@ ActiveRecord::Schema.define(version: 2019_12_30_162034) do
 
   create_table "players", force: :cascade do |t|
     t.string "name"
-    t.integer "owned_items"
-    t.integer "learned_skills"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

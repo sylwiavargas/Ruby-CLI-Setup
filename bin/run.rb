@@ -1,4 +1,5 @@
 require_relative '../config/environment'
 
-app = ffv_rmk.new
+app = Fantasy.new
 app.run
+
