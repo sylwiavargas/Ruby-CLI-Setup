@@ -32,4 +32,19 @@ class User < ActiveRecord::Base
         User.create(username: username, password: password)
     end 
 
+<<<<<<< Updated upstream
 end
+=======
+    def self.select_starbucks 
+        system 'clear'
+        User.find_idby_username(@userid)
+        star_choice = Starbucks.starbucks_name
+        choices = self.tty_prompt.select("Which location would you like to order from?", star_choice) 
+        if choices
+            d = Starbucks.find_starby_user(choices)
+            Order.create(user_id: @userid.id, starbucks_id: d.id)
+        end
+    end
+end 
+
+>>>>>>> Stashed changes

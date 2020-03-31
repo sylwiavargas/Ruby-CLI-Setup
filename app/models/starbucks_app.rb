@@ -16,7 +16,14 @@ class StarbucksApp
     end 
 
     def welcome
+<<<<<<< Updated upstream
         puts "Welcome to Starbucks!😜😜"
+=======
+        #Enter animation
+        system 'clear'
+        puts "Welcome to Starbucks!😜 ☕️ 😜 ☕️ 😎 ☕️"
+        sleep(1)
+>>>>>>> Stashed changes
     end 
 
     def log_in
@@ -54,6 +61,7 @@ class StarbucksApp
     end
 
     def remove_items
+<<<<<<< Updated upstream
         puts  "What item would you like to remove?"
         answer = gets.chomp.downcase 
         # if @@cart.include?(answer)
@@ -63,6 +71,35 @@ class StarbucksApp
         # end 
         sleep(0.6)
         view_cart
+=======
+        cart_arr = @@cart.flatten 
+        if cart_arr.count == 0 
+            puts "Your cart is empty, please add items"
+            view_cart
+        end
+        if cart_arr.count > 0 
+            splitted_cart = cart_arr.split(" ")
+            selected_items = prompt.multi_select("Which item would you like to remove?", splitted_cart)
+            selected_items.each do |del| 
+                cart_arr.delete_at(cart_arr.index(del))
+            end 
+            
+            sleep(0.6)
+            view_cart
+        end
+    end 
+
+    def confirm_checkout
+        choice = self.prompt.select("Are you done") do |menu|
+            menu.choice "Yes", -> {checkout}
+            menu.choice "No", -> {view_cart}
+        end
+    end  
+
+    def checkout 
+        puts "Your order has been confirmed of #{@@cart.join(", ")}.
+            It will be ready for pickup in #{rand(20...40)} minutes" 
+>>>>>>> Stashed changes
     end
 end
 
