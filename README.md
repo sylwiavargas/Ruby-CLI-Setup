@@ -18,7 +18,7 @@
 
 ### Coding
 1. Create a dummy version of your logic -> hardcode it and don't yet make your code save anything to the database, just make sure that the logic works
-2. Test often by running the file or by binding.pry
+2. Test often by running the file or by `binding.pry`
 3. What I fould useful is drowing out every step I want to guide users through before coding - my whiteboard looked like this:
 ![](Sunday.jpg)
 4. Then I coded the dummy version (without saving to the database, just to see if all "if"s are working and all that jazz)
