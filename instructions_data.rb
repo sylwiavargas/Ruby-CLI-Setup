@@ -12,7 +12,7 @@ $adding_table = [
         code: "exit"
     },
     {
-        name: "create a migration file", 
+        name: "create a migration file (hint: the argument to the create_migration method should be e.g. 'NAME=create_people')", 
         code: "rake db:create_migration NAME=create_plural_form_of_the_noun"
     },
     {
@@ -20,7 +20,7 @@ $adding_table = [
         code: ""
     },
     {
-        name: "open the migration file and using the create_table method, specify the table columns -- check the first migration file for reference!", 
+        name: "open the migration file and using the create_table method, specify the table columns", 
         code: "create_table :name_of_the_table "
     },
     {
@@ -47,7 +47,7 @@ $adding_table = [
 
 $adding_column = [
     {
-        name: "create a migration file (e.g. add_color_to_plant) -- refer to the", 
+        name: "create a migration file (e.g. add_color_to_plant)", 
         code: "rake db:create_migration NAME=add_column_name_to_name_of_the_table"
     },
     {
