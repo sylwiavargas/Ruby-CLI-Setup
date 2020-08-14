@@ -10,6 +10,12 @@ task :console do
   Pry.start
 end
 
+desc "start our app"
+task :start do
+  app = nameOfYourApp.new
+  app.run
+end
+
 namespace :remind_me_about do
 
   desc "🎁 process for adding a new table"

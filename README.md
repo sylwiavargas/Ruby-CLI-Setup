@@ -8,7 +8,7 @@
 2. Create migrations: run `rake db:create_migration` and add the syntax you need (e.g. `NAME=create_users`)
 3. Migrate: run `rake db:migrate`
 * **REMEMBER** never ever ever change anything in schema.
-4. Go to `.bin/run.rb` and change the name of the app on line 3
+4. Go to `.bin/run.rb` and change the name of the app on line 3 AND/OR go to `Rakefile` and change the name of the app on line 15
 5. Go to `./app/models` and change the names of the files (e.g. `User.rb` <- singular) and the class names inside
 6. Set up association macros in classes (`belongs_to` / `has_many` / `has_many, through:`)
 7. Create seed file in `db/seed.rb` + then run `rake db:seed`
