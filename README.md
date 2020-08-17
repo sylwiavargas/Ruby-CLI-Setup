@@ -30,7 +30,7 @@
 - [Dad Jokes API Docs](https://icanhazdadjoke.com/api)
 - [Sample API Request](https://icanhazdadjoke.com/api#fetch-a-random-dad-joke)
 
-- **[More APIs]**(https://rapidapi.com/collection/cool-apis)
+- [More APIs](https://rapidapi.com/collection/cool-apis)
 - [And even more APIs](https://medium.com/@vicbergquist/18-fun-apis-for-your-next-project-8008841c7be9)
 
 ## Fun Gems For Your Projects
