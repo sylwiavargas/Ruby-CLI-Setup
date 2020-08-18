@@ -10,6 +10,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 2020_08_17_193654) do
+
+  create_table "bucket_list_items", force: :cascade do |t|
+    t.boolean "wish_completed", default: false
+    t.integer "traveler_id"
+    t.integer "wish_id"
+  end
+
+  create_table "destinations", force: :cascade do |t|
+    t.string "destination_name"
+  end
+
+  create_table "travelers", force: :cascade do |t|
+    t.string "traveler_name"
+    t.integer "traveler_age"
+  end
+
+  create_table "wishes", force: :cascade do |t|
+    t.string "wish_note"
+    t.integer "destination_id"
+  end
 
 end
+
