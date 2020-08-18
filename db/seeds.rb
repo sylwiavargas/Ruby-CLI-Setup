@@ -1,15 +1,17 @@
-Plant.destroy_all
-Person.destroy_all
-PlantParenthood.destroy_all
-Plant.reset_pk_sequence
-Person.reset_pk_sequence
-PlantParenthood.reset_pk_sequence
+Traveler.destroy_all
+Wish.destroy_all
+Destination.destroy_all
+BucketListItem.destroy_all
+# Traveler.reset_pk_sequence
+# Wish.reset_pk_sequence
+# Destination.reset_pk_sequence
+# BucketListItem.reset_pk_sequence
 
 ########### different ways to write your seeds ############
 #1: save everything to variables (makes it easy to connect models, best for when you want to be intentional about your seeds)
-katherine = Traveler.create(traveler_name: "Katherine", age: "29")
-sayana = Traveler.create(traveler_name: "Sayana", age: "30")
-michael = Traveler.create(traveler_name: "Michael", age: "35")
+katherine = Traveler.create(traveler_name: "Katherine", traveler_age: "29")
+sayana = Traveler.create(traveler_name: "Sayana", traveler_age: "30")
+michael = Traveler.create(traveler_name: "Michael", traveler_age: "35")
 
 wish1 = Wish.create(wish_note: "To see La Tour Eiffelle", destination_id: 1)
 wish2 = Wish.create(wish_note: "Climb Machu Picchu", destination_id: 2)
@@ -35,12 +37,7 @@ destination10 = Destination.create(destination_name: "Russia")
 
 bucket_list1 = BucketListItem.create(traveler_id: 1, wish_id: 1)
 bucket_list2 = BucketListItem.create(traveler_id: 2, wish_id: 2)
-
-
-
-
-
-
+bucket_list3 = BucketListItem.create(traveler_id: 3, wish_id: 3)
 
 
 
@@ -52,11 +49,6 @@ bucket_list2 = BucketListItem.create(traveler_id: 2, wish_id: 2)
 
 # # 2. Mass create -- in order to connect them later IN SEEDS (not through the app) you'll need to find their id
 # ## a. by passing an array of hashes:
-
-
-
-
-
 
 
 # Plant.create([
@@ -73,9 +65,6 @@ bucket_list2 = BucketListItem.create(traveler_id: 2, wish_id: 2)
 #     {name: "Cactus", bought: 20200517, color: "green"}]
 
 # plants.each{|hash| Plant.create(hash)}
-
-
-
 
 
 
