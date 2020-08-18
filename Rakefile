@@ -12,7 +12,7 @@ end
 
 desc "start our app"
 task :start do
-  app = nameOfYourApp.new
+  app = TravelerBucketList.new
   app.run
 end
 
