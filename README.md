@@ -1,4 +1,4 @@
-## Process
+## Ruby CLI stub repo
 
 ### NOTE
 - this setup contains a rakefile with helpful process reminders
