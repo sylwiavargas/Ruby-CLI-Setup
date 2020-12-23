@@ -46,4 +46,7 @@
 - [Adding animations to your CLI by Sylwia Vargas](https://medium.com/better-programming/add-an-animation-or-a-giph-to-your-ruby-cli-29952e8c46ea)
 - [Adding ASCII Art to your CLI by Sylwia Vargas](https://medium.com/@sylwiavargas/adding-pictures-to-your-ruby-cli-4252b89823a)
 - [Using Time/Date in your CLI by Joel Mendoza](https://medium.com/@joelmendza173/ruby-date-time-for-dummies-9f45518bab64)
+- [Project tracking tool from GitHub (where you can connect projects, issues, etc) by Isabel K. Lee:](https://medium.com/swlh/how-git-and-github-can-make-your-life-easier-2ff5b9e1f6f1)
+- [Good git primer by Isabel K. Lee](https://dev.to/isabelxklee/a-beginner-s-guide-to-git-github-41jc)
+- [Introducing music to your CLI](https://simplemitch.com/2020/02/20/afplay-definitive-guide-to-manipulating-audio-in-your-cli-application-ruby/)
 
