@@ -4,7 +4,7 @@
 - this setup contains a rakefile with helpful process reminders
 
 ### Setup
-0. Clone the repo (do not fork), `cd` to the folder and then run `rm -rf .git` to remove git tracking. This will allow you to use this repo as your own repository, unconnected to mine. Go to github, create a new repository and upload the starter there. 
+0. Fork and clone the repo, `cd` to the folder and then run `rm -rf .git` to remove git tracking. This will allow you to use this repo as your own repository, unconnected to mine. Go to github, create a new repository and upload the starter there. 
 1. Create Gemfile + run `bundle`
 2. Create migrations: run `rake db:create_migration` and add the syntax you need (e.g. `NAME=create_users`)
 3. Migrate: run `rake db:migrate`
