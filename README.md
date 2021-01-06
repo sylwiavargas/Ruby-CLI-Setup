@@ -28,12 +28,9 @@
 6. Then I beautified the code and the app to make it visually pleasing
 
 ## APIs
-
 - [Dad Jokes API Docs](https://icanhazdadjoke.com/api)
-- [Sample API Request](https://icanhazdadjoke.com/api#fetch-a-random-dad-joke)
-
-- [More APIs](https://rapidapi.com/collection/cool-apis)
-- [And even more APIs](https://medium.com/@vicbergquist/18-fun-apis-for-your-next-project-8008841c7be9)
+- [APIs](https://rapidapi.com/collection/cool-apis)
+- [And more APIs](https://medium.com/@vicbergquist/18-fun-apis-for-your-next-project-8008841c7be9)
 
 ## Fun Gems For Your Projects
 - `faker` - randomly generated seed data fun
@@ -44,6 +41,13 @@
 - `formatador` - styling output information into a neat table
 - `artii` - creating text banners
 
+## Other tty gems
+- [tty-box](https://github.com/piotrmurach/tty-box) -- creating boxes in your terminal
+- [tty-progressbar](https://github.com/piotrmurach/tty-progressbar) -- flexible progress bar drawing in terminal emulators
+- [tty-tree](https://github.com/piotrmurach/tty-tree) -- if you want to represent e.g. file structure
+- [tty-reader](https://github.com/piotrmurach/tty-reader) -- allows you to trigger some events on specific keys
+- [tty-markdown](https://github.com/piotrmurach/tty-markdown-cli) -- formatting tools for long texts
+
 ## Tutorials
 - [Adding animations to your CLI by Sylwia Vargas](https://medium.com/better-programming/add-an-animation-or-a-giph-to-your-ruby-cli-29952e8c46ea)
 - [Adding ASCII Art to your CLI by Sylwia Vargas](https://medium.com/@sylwiavargas/adding-pictures-to-your-ruby-cli-4252b89823a)
@@ -52,3 +56,6 @@
 - [Good git primer by Isabel K. Lee](https://dev.to/isabelxklee/a-beginner-s-guide-to-git-github-41jc)
 - [Introducing music to your CLI](https://simplemitch.com/2020/02/20/afplay-definitive-guide-to-manipulating-audio-in-your-cli-application-ruby/)
 
+## Other tools
+- [Terminal recording](https://asciinema.org/) for your readme
+- [Github projects](https://github.com/features/project-management/) for better project management
