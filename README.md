@@ -33,11 +33,11 @@
 - [And more APIs](https://medium.com/@vicbergquist/18-fun-apis-for-your-next-project-8008841c7be9)
 
 ## Fun Gems For Your Projects
+- `tty-prompt` - nice interface for prompting for user input -- [see here how to set it up](https://github.com/sylwiavargas/tty-prompt-activity)
+- `rest-client` - make HTTP requests and get data from APIs
 - `faker` - randomly generated seed data fun
 - `colorize` - colored text output in your terminal
 - `lolcat` - enabling rainbow text coloring
-- `rest-client` - make HTTP requests and get data from APIs
-- `tty-prompt` - nice interface for prompting for user input
 - `formatador` - styling output information into a neat table
 - `artii` - creating text banners
 
