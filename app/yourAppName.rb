@@ -6,7 +6,8 @@ class YourAppName
     # welcome
     # login_or_signup
     # wanna_see_favs?
-    # get_joke(what_subject)
+    # some_method(some_argument)
+    # exit
   end
 
   private

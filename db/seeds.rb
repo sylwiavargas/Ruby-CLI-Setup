@@ -1,3 +1,5 @@
+# THIS SEED FILE NEEDS TO BE ENTIRELY REPLACED -- I'M LEAVING CODE FOR YOUR REFERENCE ONLY!
+
 Plant.destroy_all
 Person.destroy_all
 PlantParenthood.destroy_all
@@ -7,12 +9,6 @@ PlantParenthood.reset_pk_sequence
 
 ########### different ways to write your seeds ############
 
-
-
-
-
-
-
 # 1: save everything to variables (makes it easy to connect models, best for when you want to be intentional about your seeds)
 basil = Plant.create(name: "basil the herb", bought: 20200610, color: "green")
 sylwia = Person.create(name: "Sylwia", free_time: "none", age: 30)
@@ -20,13 +16,6 @@ pp1 = PlantParenthood.create(plant_id: basil.id, person_id: sylwia.id, affection
 
 # 2. Mass create -- in order to connect them later IN SEEDS (not through the app) you'll need to find their id
 ## a. by passing an array of hashes:
-
-
-
-
-
-
-
 Plant.create([
     {name: "Corn Tree", bought: 20170203, color: "green"},
     {name: "Prayer plant", bought: 20190815, color: "purple"},
@@ -41,11 +30,6 @@ plants = [{name: "Elephant bush", bought: 20180908, color: "green"},
     {name: "Cactus", bought: 20200517, color: "green"}]
 
 plants.each{|hash| Plant.create(hash)}
-
-
-
-
-
 
 # 3. Use Faker and mass create
 ## step 1: write a method that creates a person
