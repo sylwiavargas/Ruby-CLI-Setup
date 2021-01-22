@@ -47,6 +47,8 @@ After you have drawn your ERD and decided on the user stories, follow these step
 5. Then I added the database methods.
 6. Then only I beautified the code and the app to make it visually pleasing
 
+---
+
 ## Github workflow primer
 I thought I’d share the git workflow my tech collective follows:
 1. Add everyone as a collaborator to the repo
@@ -68,6 +70,8 @@ I thought I’d share the git workflow my tech collective follows:
 PLEASE DO USE MULTIPLE BRANCHES AND NOT ONLY ONE to minimize the risk of overwriting your working code with an accidental commit. Traveling in time with git is possible but it’s not the most pleasurable thing to do with your day.
 
 For project management, we use [git projects](https://github.com/features/project-management/) (instead of trello or asana) and git issues. We do stand ups and stand downs every day, where we distribute tasks and give summaries of what has been done. We pair program whenever possible, stair each pairing with discussing ground rules and end with giving each other feedback. However, given the fact that we all have full-time jobs it is not always the case. 
+
+---
 
 ## Tools
 
