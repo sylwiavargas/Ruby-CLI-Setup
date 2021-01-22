@@ -32,7 +32,7 @@ After you have drawn your ERD and decided on the user stories, follow these step
 6. Set up association macros in classes (`belongs_to` / `has_many` / `has_many, through:`)
 7. Create seed file in `db/seed.rb` + then run `rake db:seed`
 * remember: seeding does not give you any output so no news on your console == good news
-8. Check if you've seeded correctly: run `rake c` and check what's the last instance of any of your class 
+8. Check if you've seeded correctly: run `rake console` and check the last instance of any of your class 
 9. Go to `./app/yourAppName.rb` and change that file's name and whatever is inside (the class name should correspond to what you wrote in `.bin/run.rb` on line 3)
 10. Go to `./Rakefile` and change nameOfYourApp there as well (save the file!); 
 11. Now you can start your app either by running `rake start` in your terminal OR by running `ruby ./bin/run.rb`. You can delete the rake task or the `run.rb` if you have a preference. You can also change the rake task name, or even -- more advanced and not necessarily the best use of your time -- create an alias that would start your app
@@ -41,7 +41,7 @@ After you have drawn your ERD and decided on the user stories, follow these step
 ### Coding
 1. Create a dummy version of your logic -> hardcode it and don't yet make your code save anything to the database, just make sure that the logic works
 2. Test often by running the file, by running `rake console` or by `binding.pry`
-3. What I fould useful is drowing out every step I want to guide users through before coding - my whiteboard looked like this:
+3. What I fould useful is drawing out every step I want to guide users through before coding - my whiteboard looked like this:
 ![](Sunday.jpg)
 4. I first coded the dummy version (without saving to the database, just to see if all "if"s are working and all that jazz)
 5. Then I added the database methods.
