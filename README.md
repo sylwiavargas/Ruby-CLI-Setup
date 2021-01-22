@@ -1,7 +1,25 @@
-## Ruby CLI stub repo
+# Ruby CLI stub repo
 
 ### NOTE
 - this setup contains a rakefile with helpful process reminders
+
+## Table of Contents
+- [Getting Started](#getting-started)
+    - [Setup](#setup)
+    - [Coding](#coding)
+- [Github Workflow Primer](#github-workflow-primer)
+- [Tools](#tools)
+    - [Fun Gems](#fun-gems)
+    - [Other tty gems](#other-tty-gems)
+    - [List of APIs](#apis)
+    - [Tutorials](#tutorials)
+    - [Other tools](#other-tools)
+
+--- 
+
+## Getting started
+
+After you have drawn your ERD and decided on the user stories, follow these steps.
 
 ### Setup
 0. Fork and clone the repo, `cd` to the folder and then run `rm -rf .git` to remove git tracking. This will allow you to use this repo as your own repository, unconnected to mine. Go to github, create a new repository and upload the starter there. 
@@ -29,7 +47,7 @@
 5. Then I added the database methods.
 6. Then only I beautified the code and the app to make it visually pleasing
 
-### Github workflow
+## Github workflow primer
 I thought I’d share the git workflow my tech collective follows:
 1. Add everyone as a collaborator to the repo
 2. clone the repo; in the repo, have two standard branches: `main` and `dev`;
@@ -51,12 +69,11 @@ PLEASE DO USE MULTIPLE BRANCHES AND NOT ONLY ONE to minimize the risk of overwri
 
 For project management, we use [git projects](https://github.com/features/project-management/) (instead of trello or asana) and git issues. We do stand ups and stand downs every day, where we distribute tasks and give summaries of what has been done. We pair program whenever possible, stair each pairing with discussing ground rules and end with giving each other feedback. However, given the fact that we all have full-time jobs it is not always the case. 
 
+## Tools
 
-## APIs
-- [APIs](https://rapidapi.com/collection/cool-apis)
-- [And more APIs](https://medium.com/@vicbergquist/18-fun-apis-for-your-next-project-8008841c7be9)
+I collected tools for your app that might be helpful.
 
-## Fun Gems For Your Projects
+###  Fun Gems
 - `tty-prompt` - nice interface for prompting for user input -- [see here how to set it up](https://github.com/sylwiavargas/tty-prompt-activity)
 - `rest-client` - make HTTP requests and get data from APIs
 - `faker` - randomly generated seed data fun
@@ -65,14 +82,18 @@ For project management, we use [git projects](https://github.com/features/projec
 - `formatador` - styling output information into a neat table
 - `artii` - creating text banners
 
-## Other tty gems
+### Other tty gems
 - [tty-box](https://github.com/piotrmurach/tty-box) -- creating boxes in your terminal
 - [tty-progressbar](https://github.com/piotrmurach/tty-progressbar) -- flexible progress bar drawing in terminal emulators
 - [tty-tree](https://github.com/piotrmurach/tty-tree) -- if you want to represent e.g. file structure
 - [tty-reader](https://github.com/piotrmurach/tty-reader) -- allows you to trigger some events on specific keys
 - [tty-markdown](https://github.com/piotrmurach/tty-markdown-cli) -- formatting tools for long texts
 
-## Tutorials
+### APIs
+- [APIs](https://rapidapi.com/collection/cool-apis)
+- [And more APIs](https://medium.com/@vicbergquist/18-fun-apis-for-your-next-project-8008841c7be9)
+
+### Tutorials
 - [Adding animations to your CLI by Sylwia Vargas](https://medium.com/better-programming/add-an-animation-or-a-giph-to-your-ruby-cli-29952e8c46ea)
 - [Adding ASCII Art to your CLI by Sylwia Vargas](https://medium.com/@sylwiavargas/adding-pictures-to-your-ruby-cli-4252b89823a)
 - [Lecture: Setting up TTY Prompt in your CLI by Sylwia Vargas](https://github.com/sylwiavargas/tty-prompt-activity)
@@ -80,10 +101,10 @@ For project management, we use [git projects](https://github.com/features/projec
 - [Refactoring your app into modules by Danny Sasse](https://dsasse07.medium.com/refactoring-app-features-into-modules-in-ruby-fa5fd11dec61)
 - [Introducing music to your CLI](https://simplemitch.com/2020/02/20/afplay-definitive-guide-to-manipulating-audio-in-your-cli-application-ruby/)
 - [Streamlining git add/commit/push by Shane Lonergan](https://medium.com/swlh/creating-new-bash-commands-and-aliases-c9272fd589c4)
+- [Good git primer by Isabel K. Lee](https://dev.to/isabelxklee/a-beginner-s-guide-to-git-github-41jc)
 - [A git cheat-sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 - [Project tracking tool from GitHub (where you can connect projects, issues, etc) by Isabel K. Lee:](https://medium.com/swlh/how-git-and-github-can-make-your-life-easier-2ff5b9e1f6f1)
-- [Good git primer by Isabel K. Lee](https://dev.to/isabelxklee/a-beginner-s-guide-to-git-github-41jc)
 
-## Other tools
+### Other tools
 - [Terminal recording](https://asciinema.org/) for your readme
 - [Github projects](https://github.com/features/project-management/) for better project management
