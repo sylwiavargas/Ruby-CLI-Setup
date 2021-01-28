@@ -19,7 +19,7 @@
 
 ## Getting started
 
-After you have drawn your ERD and decided on the user stories, follow these steps.
+After you have drawn your ERD out (with the "crow feet"  & attributes/proper foreign keys) and decided on the user stories, follow these steps.
 
 ### Setup
 0. Fork and clone the repo, `cd` to the folder and then run `rm -rf .git` to remove git tracking. This will allow you to use this repo as your own repository, unconnected to mine. Go to github, create a new repository and upload the starter there. 
@@ -98,9 +98,10 @@ I collected tools for your app that might be helpful.
 - [And more APIs](https://medium.com/@vicbergquist/18-fun-apis-for-your-next-project-8008841c7be9)
 
 ### Tutorials
+- [Lecture: Setting up TTY Prompt in your CLI by Sylwia Vargas](https://github.com/sylwiavargas/tty-prompt-activity)
 - [Adding animations to your CLI by Sylwia Vargas](https://medium.com/better-programming/add-an-animation-or-a-giph-to-your-ruby-cli-29952e8c46ea)
 - [Adding ASCII Art to your CLI by Sylwia Vargas](https://medium.com/@sylwiavargas/adding-pictures-to-your-ruby-cli-4252b89823a)
-- [Lecture: Setting up TTY Prompt in your CLI by Sylwia Vargas](https://github.com/sylwiavargas/tty-prompt-activity)
+- [Reload method for when your CLI doesn't reflect the changes you've just made -- a blog by Alex Suthammanont](https://medium.com/@asuthamm/activerecord-association-reload-d2e1be8b4aa)
 - [Sending SMS with Twilio API in your CLI by Danny Sasse](https://dsasse07.medium.com/sending-sms-text-from-a-ruby-app-f8222c30e986)
 - [Refactoring your app into modules by Danny Sasse](https://dsasse07.medium.com/refactoring-app-features-into-modules-in-ruby-fa5fd11dec61)
 - [Introducing music to your CLI](https://simplemitch.com/2020/02/20/afplay-definitive-guide-to-manipulating-audio-in-your-cli-application-ruby/)
